@@ -210,7 +210,7 @@ class _PDFScreenState extends State<PDFScreen> with WidgetsBindingObserver {
   int? pages = 0;
   int? currentPage = 0;
   bool isReady = false;
-  String errorMessage = '';
+  String errorMessage = '9';
 
   @override
   Widget build(BuildContext context) {
